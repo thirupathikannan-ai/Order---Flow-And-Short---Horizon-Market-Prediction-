@@ -1,1 +1,28 @@
+# Actual Research Results
 
+The model was evaluated using a reproducible synthetic market experiment with:
+
+```text
+Random Seed        : 42
+Total Events       : 50,000
+Training Data      : 70%
+Testing Data       : 30%
+Prediction Model   : Logistic Regression
+Prediction Target : Short-horizon price direction
+Features           : Order-flow imbalance + lagged OFI + returns
+Model Performance
+1-Tick Prediction
+Accuracy       : 54.12%
+ROC-AUC        : 0.5522
+Log Loss       : 0.6889
+Baseline       : 51.23%
+5-Tick Prediction
+Accuracy       : 55.44%
+ROC-AUC        : 0.5732
+Log Loss       : 0.6851
+Baseline       : 51.91%
+10-Tick Prediction
+Accuracy       : 54.19%
+ROC-AUC        : 0.5545
+Log Loss       : 0.6891
+Baseline       : 47.04%
