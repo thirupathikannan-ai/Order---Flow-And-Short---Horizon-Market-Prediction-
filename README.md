@@ -470,7 +470,8 @@ Order-Flow-Short-Horizon-Market-Prediction/
     └── roc_curve.png
 Installation
 Clone the repository:
-git clone https://github.com/YOUR_USERNAME/Order-Flow-Short-Horizon-Market-Prediction.git
+git clone
+https://github.com/thirupathikannan-ai/Order---Flow-And-Short---Horizon-Market-Prediction-.git
 Enter the project directory:
 cd Order-Flow-Short-Horizon-Market-Prediction
 Install dependencies:
