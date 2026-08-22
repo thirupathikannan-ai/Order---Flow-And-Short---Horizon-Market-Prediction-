@@ -1,1 +1,8 @@
+# Data
 
+This directory is intentionally kept free of large raw datasets.
+
+The default experiment uses a synthetic limit-order-book generator located at:
+
+```text
+src/data_generator.py
