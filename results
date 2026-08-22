@@ -1,1 +1,22 @@
+============================================================
+ORDER FLOW & SHORT-HORIZON MARKET PREDICTION
+============================================================
 
+Random Seed             : 42
+Total Events            : 50,000
+Train/Test Split        : 70% / 30%
+Prediction Horizons     : 1, 5, 10 ticks
+Model                   : Logistic Regression
+Features                : OFI + Lagged OFI + Short-Term Returns
+
+============================================================
+OUT-OF-SAMPLE RESULTS
+============================================================
+
+Horizon     Accuracy    AUC       Log Loss    Baseline Accuracy
+---------------------------------------------------------------
+1 Tick      54.12%      0.5522    0.6889      51.23%
+5 Ticks     55.44%      0.5732    0.6851      51.91%
+10 Ticks    54.19%      0.5545    0.6891      47.04%
+
+============================================================
